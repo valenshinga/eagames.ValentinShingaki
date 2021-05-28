@@ -1,0 +1,75 @@
+@each $game in apex,fifa,ufc,battlefront,anthem,battlefield,jedi,nfl,nfsheat,nfshot,titanfall,ufc,wayout {
+    .#{$game}-form { 
+        width: 500px;
+        height: 300px;
+   }
+} 
+
+
+form{
+    text-align: center;
+    padding: 20px;
+    color: blueviolet;
+    
+}
+
+.linkCompra{
+    display: flex;
+    justify-content: center;
+    color: rgb(187, 127, 255);
+    padding: 20px;
+}
+
+.styleEx{
+    color: darkorchid;
+    font-family: 'Francois One', sans-serif;
+}
+
+.styleG{
+    color:rgba(247, 0, 255, 0.753);
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+}
+
+.cimg{
+    width:800px;
+}
+
+.caru{
+    display: flex;
+    padding-top: 90px;
+    margin:0;
+}
+
+p{
+    line-height: 2;
+    font-size: 17px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color:rgb(187, 127, 255);
+}
+
+.guia {
+    display: flex;
+    color:darkorchid;
+    align-items: center;
+    justify-content:center;
+    padding: 10px;
+    padding-top: 30px;
+    right: 0%;
+    font-family: 'Playfair Display', serif;
+    size: 10px;
+}
+.guia2 :hover{
+    display: flex;
+    justify-content: flex-end;
+    color:darkorchid;
+    background-color: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.cont{
+    display: flex;
+    margin: auto;
+    padding: 0;
+}

@@ -1,0 +1,49 @@
+.p1{
+    display: grid;
+    grid-template-areas: 
+    "apex fifa"
+    "ufc battlefront";
+    grid-template-columns: 30fr 30fr;
+    grid-template-rows: 30fr 30fr;
+    grid-column-gap: 60px;
+    grid-row-gap: 100px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.gridA{
+    grid-area: apex;
+    justify-items: stretch;
+    align-items: center;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    color: blueviolet;
+}
+
+.gridF{
+    grid-area: fifa;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    color: blueviolet;
+}
+
+.gridU{
+    grid-area: ufc;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    color: blueviolet;
+}
+
+.gridB{
+    grid-area: battlefront;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    color: blueviolet;
+}
+

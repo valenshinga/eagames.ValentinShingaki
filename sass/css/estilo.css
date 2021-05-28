@@ -1,0 +1,237 @@
+.titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: darkorchid;
+  font-family: 'Playfair Display', serif; }
+
+.menu {
+  display: flex;
+  color: darkorchid;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  right: 0%;
+  font-family: 'Playfair Display', serif; }
+
+.menu2 :hover {
+  display: flex;
+  justify-content: flex-end;
+  color: darkorchid;
+  background-color: none;
+  font-family: 'Playfair Display', serif; }
+
+.logo {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left; }
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: #232526;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+
+.search {
+  text-align: center;
+  background-color: mediumslateblue;
+  color: chartreuse; }
+
+.searchBar {
+  text-align: center;
+  padding: 20px;
+  border: none;
+  border-radius: 0%; }
+
+.apex-form {
+  width: 500px;
+  height: 300px; }
+
+.fifa-form {
+  width: 500px;
+  height: 300px; }
+
+.ufc-form {
+  width: 500px;
+  height: 300px; }
+
+.battlefront-form {
+  width: 500px;
+  height: 300px; }
+
+.anthem-form {
+  width: 500px;
+  height: 300px; }
+
+.battlefield-form {
+  width: 500px;
+  height: 300px; }
+
+.jedi-form {
+  width: 500px;
+  height: 300px; }
+
+.nfl-form {
+  width: 500px;
+  height: 300px; }
+
+.nfsheat-form {
+  width: 500px;
+  height: 300px; }
+
+.nfshot-form {
+  width: 500px;
+  height: 300px; }
+
+.titanfall-form {
+  width: 500px;
+  height: 300px; }
+
+.ufc-form {
+  width: 500px;
+  height: 300px; }
+
+.wayout-form {
+  width: 500px;
+  height: 300px; }
+
+form {
+  text-align: center;
+  padding: 20px;
+  color: blueviolet; }
+
+.linkCompra {
+  display: flex;
+  justify-content: center;
+  color: #bb7fff;
+  padding: 20px; }
+
+.styleEx {
+  color: darkorchid;
+  font-family: 'Francois One', sans-serif; }
+
+.styleG {
+  color: rgba(247, 0, 255, 0.753);
+  text-align: center;
+  font-family: 'Francois One', sans-serif; }
+
+.cimg {
+  width: 800px; }
+
+.caru {
+  display: flex;
+  padding-top: 90px;
+  margin: 0; }
+
+p {
+  line-height: 2;
+  font-size: 17px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #bb7fff; }
+
+.guia {
+  display: flex;
+  color: darkorchid;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 30px;
+  right: 0%;
+  font-family: 'Playfair Display', serif;
+  size: 10px; }
+
+.guia2 :hover {
+  display: flex;
+  justify-content: flex-end;
+  color: darkorchid;
+  background-color: none;
+  font-family: 'Playfair Display', serif; }
+
+.cont {
+  display: flex;
+  margin: auto;
+  padding: 0; }
+
+.p1 {
+  display: grid;
+  grid-template-areas: "apex fifa" "ufc battlefront";
+  grid-template-columns: 30fr 30fr;
+  grid-template-rows: 30fr 30fr;
+  grid-column-gap: 60px;
+  grid-row-gap: 100px;
+  justify-content: center;
+  justify-items: center; }
+
+.gridA {
+  grid-area: apex;
+  justify-items: stretch;
+  align-items: center;
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  color: blueviolet; }
+
+.gridF {
+  grid-area: fifa;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  color: blueviolet; }
+
+.gridU {
+  grid-area: ufc;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  color: blueviolet; }
+
+.gridB {
+  grid-area: battlefront;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Francois One', sans-serif;
+  color: blueviolet; }
+
+th {
+  background-color: #bb7fff;
+  border: 1px solid;
+  text-align: center;
+  font-family: 'Lato', sans-serif; }
+
+tr, td {
+  border: 1px solid;
+  line-height: 30px;
+  text-align: center;
+  background-color: #bb7fff;
+  font-family: 'Lato', sans-serif; }
+
+body {
+  background: #6441A5;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2a0845, #6441A5);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+a {
+  text-decoration: none; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }

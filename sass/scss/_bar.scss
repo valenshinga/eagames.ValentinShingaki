@@ -1,0 +1,54 @@
+
+.titulo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+         color:darkorchid;
+         font-family: 'Playfair Display', serif;
+}
+.menu {
+        display: flex;
+        color:darkorchid;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px;
+        right: 0%;
+        font-family: 'Playfair Display', serif;
+    }
+.menu2 :hover{
+        display: flex;
+        justify-content: flex-end;
+        color:darkorchid;
+        background-color: none;
+        font-family: 'Playfair Display', serif;
+    }
+.logo{
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left ;
+    }
+.bar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    }
+
+.search{
+    text-align: center;
+    background-color:mediumslateblue ;
+    color:chartreuse
+    
+}
+.searchBar{
+    text-align: center;
+    padding: 20px;
+    border: none;
+    border-radius: 0%;
+}
